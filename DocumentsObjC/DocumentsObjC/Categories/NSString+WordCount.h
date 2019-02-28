@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JKDocumentViewController.h"
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (WordCount)
+// wordCount: forString:
+- (NSInteger)wordCount:(NSString *)forString;
 
 @end
 
-NS_ASSUME_NONNULL_END
+

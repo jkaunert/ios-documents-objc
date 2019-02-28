@@ -66,13 +66,13 @@
 			children = (
 				AB59BD0722273E4D00190925 /* AppDelegate.h */,
 				AB59BD0822273E4D00190925 /* AppDelegate.m */,
+				AB59BD292227556B00190925 /* Categories */,
 				AB59BD1D22273E7000190925 /* View Controllers */,
 				AB59BD0D22273E4D00190925 /* Main.storyboard */,
 				AB59BD1022273E4D00190925 /* Assets.xcassets */,
 				AB59BD1222273E4D00190925 /* LaunchScreen.storyboard */,
 				AB59BD1522273E4D00190925 /* Info.plist */,
 				AB59BD1622273E4D00190925 /* main.m */,
-				AB59BD292227556B00190925 /* Categories */,
 			);
 			path = DocumentsObjC;
 			sourceTree = "<group>";

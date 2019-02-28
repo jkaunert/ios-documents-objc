@@ -7,7 +7,20 @@
 //
 
 #import "NSString+WordCount.h"
+#import "JKDocumentViewController.h"
 
 @implementation NSString (WordCount)
+
+- (NSInteger)wordCount:(NSString*)forString {
+    __block NSInteger wordCount = 0;
+    [forString enumerateSubstringsInRange:NSMakeRange(0, forString.length)
+                               options:NSStringEnumerationByWords
+                            usingBlock:^(NSString *character, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
+                                wordCount++;
+                            }];
+    return wordCount;
+}
+
+
 
 @end
