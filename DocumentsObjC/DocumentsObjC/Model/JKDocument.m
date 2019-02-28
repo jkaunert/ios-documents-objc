@@ -12,11 +12,22 @@
 
 @implementation JKDocument
 @synthesize documentWordCount = _documentWordCount;
-- (id)init {
+
+- (instancetype)init {
     if (self != nil) {
         [self setDocumentTitle:_documentTitle];
         [self setDocumentBodyText:_documentBodyText];
     }
+    return self;
+}
+
+- (instancetype)initWithTitle:(NSString *)documentTitle andWith:(NSString *)documenBodyText {
+    if (self != nil) {
+        [self setDocumentTitle:_documentTitle];
+        [self setDocumentBodyText:_documentBodyText];
+        [self setDocumentWordCount:_documentWordCount];
+    }
+    
     return self;
 }
 

@@ -16,6 +16,10 @@
 @property NSString *documentBodyText;
 @property (nonatomic)NSInteger documentWordCount;
 
+- (instancetype)init;
+
+- (instancetype)initWithTitle:(NSString *)documentTitle andWithBodyText:(NSString *)documenBodyText;
+
 - (void)setDocumentWordCount:(NSInteger)documentWordCount;
 - (NSInteger)documentWordCount;
 
