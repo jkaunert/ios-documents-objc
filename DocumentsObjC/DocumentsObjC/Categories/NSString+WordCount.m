@@ -8,6 +8,7 @@
 
 #import "NSString+WordCount.h"
 #import "JKDocumentViewController.h"
+#import <Foundation/Foundation.h>
 
 @implementation NSString (WordCount)
 

@@ -15,6 +15,7 @@
 		AB59BD2022273F2300190925 /* JKDocumentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB59BD1F22273F2300190925 /* JKDocumentsTableViewController.m */; };
 		AB59BD24222741F300190925 /* JKDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB59BD23222741F300190925 /* JKDocumentViewController.m */; };
 		AB59BD282227556500190925 /* NSString+WordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = AB59BD272227556500190925 /* NSString+WordCount.m */; };
+		AB59BD2C2227B63000190925 /* JKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = AB59BD2B2227B63000190925 /* JKDocument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		AB59BD23222741F300190925 /* JKDocumentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKDocumentViewController.m; sourceTree = "<group>"; };
 		AB59BD262227556500190925 /* NSString+WordCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WordCount.h"; sourceTree = "<group>"; };
 		AB59BD272227556500190925 /* NSString+WordCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WordCount.m"; sourceTree = "<group>"; };
+		AB59BD2A2227B63000190925 /* JKDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKDocument.h; sourceTree = "<group>"; };
+		AB59BD2B2227B63000190925 /* JKDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKDocument.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +69,14 @@
 			children = (
 				AB59BD0722273E4D00190925 /* AppDelegate.h */,
 				AB59BD0822273E4D00190925 /* AppDelegate.m */,
-				AB59BD292227556B00190925 /* Categories */,
+				AB59BD2D2227B63500190925 /* Model */,
 				AB59BD1D22273E7000190925 /* View Controllers */,
 				AB59BD0D22273E4D00190925 /* Main.storyboard */,
 				AB59BD1022273E4D00190925 /* Assets.xcassets */,
 				AB59BD1222273E4D00190925 /* LaunchScreen.storyboard */,
 				AB59BD1522273E4D00190925 /* Info.plist */,
 				AB59BD1622273E4D00190925 /* main.m */,
+				AB59BD292227556B00190925 /* Categories */,
 			);
 			path = DocumentsObjC;
 			sourceTree = "<group>";
@@ -111,6 +115,15 @@
 				AB59BD272227556500190925 /* NSString+WordCount.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		AB59BD2D2227B63500190925 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB59BD2A2227B63000190925 /* JKDocument.h */,
+				AB59BD2B2227B63000190925 /* JKDocument.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +201,7 @@
 				AB59BD2022273F2300190925 /* JKDocumentsTableViewController.m in Sources */,
 				AB59BD1722273E4D00190925 /* main.m in Sources */,
 				AB59BD0922273E4D00190925 /* AppDelegate.m in Sources */,
+				AB59BD2C2227B63000190925 /* JKDocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
